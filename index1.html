@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project 1</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+
+<body>
+    <h1 id="title">Đơn tuyển người yêu</h1>
+
+    <p id="description">Anh không phải yêu quái mà là yêu em !?</p>
+    <div>
+        <form action="" id="survey-form">
+            <fieldset>
+                <label id="name-label" for="name">Tên của em là gì:
+                    <input type="text" name="" id="name" placeholder="Vũ Thị Ngọc Quỳnh" required>
+                </label>
+
+                <label id="email-label" for="email">Xin cái email em nhề:
+                    <input type="email" name="" id="email" placeholder="ngocquynhvu@gmail.com" required>
+                </label>
+
+                <label id="number-label" for="number">Em bao tuổi em nhề:
+                    <input type="number" name="" id="number" min="16" max="30" placeholder="Trên 13 tuổi em nhé">
+                </label>
+
+                <label for="dropdown">Em ở miền nào em nhề:
+                    <select name="" id="dropdown">
+                        <option value="">Miền Bắc</option>
+                        <option value="">Miền Trung</option>
+                        <option value="">Miền Nam</option>
+                    </select>
+                </label>
+            </fieldset>
+
+            <fieldset>
+                Một số thứ ta cần làm rõ:
+                <label for="sex"><input type="checkbox" value="checkbox" id="sex">Em chắc chắn là con gái?</label>
+                <label for="age"><input type="checkbox" value="checkbox" id="age">Em chắc chắn đủ 16+?</label>
+                <label for="bf"><input type="checkbox" value="checkbox" id="bf">Em chắc chắn không có gấu?</label>
+                <label for="terms"><input type="checkbox" value="checkbox" id="terms">Em đồng ý với điều khoản tình
+                    yêu?</label>
+            </fieldset>
+
+            <fieldset> Giới thiệu một chút em nhề:
+                <label for="info"><textarea name="info" id="info" cols="30" rows="3"
+                        placeholder="Em thích anh ..."></textarea></label>
+            </fieldset>
+
+            <fieldset>
+                Làm người yêu anh nhé:
+                <label for="yes"><input type="radio" name="radio" id="yes" value="radio" class="inline"
+                        onclick="alert('Quá là tuyệt`s zời!!!')">Đồng ý!</label>
+                <label for="superyes"><input type="radio" name="radio" id="superyes" value="radio" class="inline"
+                        onclick="alert('Không uổng công 8 năm anh chờ em ơi <3')">Cực đồng ý!</label>
+                <label for="no"><input type="radio" name="radio" id="no" value="radio" class="inline"
+                        onclick="alert('Em ơi đừng làm thế :<')">Có con cặc, địt mẹ mày thằng HÈN!</label>
+            </fieldset>
+
+            <fieldset>
+                <button id="submit" type="submit" value="submit" onclick="alert('Quá tuyệt vời')">Nộp đi anh duyệt
+                    :3</button>
+                <button id="reset" type="reset" value="reset" onclick="alert('Có sai sót gì à?')">Nút làm lại cuộc đời</button>
+            </fieldset>
+        </form>
+    </div>
+    <div>
+        <footer>
+            <p id="foot">Một sản phẩm của Pinkrex</p>
+            <p id="contact"><a href="https://mail.google.com/" target="_blank">ducnguyenminh1912003@gmail.com</a>
+            </p>
+        </footer>
+    </div>
+
+</body>
+
+</html>
